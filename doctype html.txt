@@ -3,20 +3,20 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>�^���T �X �ӤH�i��</title>
-  <meta name="description" content="�^���T���u�W�i��" />
+  <title>彭邦紘 — 個人履歷</title>
+  <meta name="description" content="彭邦紘的線上履歷" />
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header class="hero">
     <div class="container">
-      <img class="avatar" src="https://via.placeholder.com/150" alt="�j�Y��">
+      <img class="avatar" src="https://via.placeholder.com/150" alt="大頭照">
       <div class="hero-text">
-        <h1>�^����</h1>
-        <p class="title">����j�� �u�~�u�{�t�ǥ�</p>
+        <h1>彭邦紘</h1>
+        <p class="title">中原大學 工業工程系學生</p>
         <p class="contact">
-          <a href="https://github.com/Baron9584" target="_blank" rel="noopener">github.com/Baron9584</a> �P 
-          ��饫���c��
+          <a href="https://github.com/Baron9584" target="_blank" rel="noopener">github.com/Baron9584</a> · 
+          桃園市中壢區
         </p>
       </div>
     </div>
@@ -24,35 +24,35 @@
 
   <main class="container">
     <section id="about" class="card">
-      <h2>About / ²��</h2>
-      <p>�ڥثe�NŪ����j�Ǥu�~�u�{�G�ҡA���~������ܤ���j�ǡC�쥻�NŪ��Ƥj�ǤƾǨt�C���`����O���y�P�l���ΡA�z�L�B�ʻPť���֨��V�����O�C�ڧƱ�b�u��¦���סv�o���ү�Ǩ��h��T�������J�����ѡA�H���U�ۤv�������Ӫ�¾�P��V�C</p>
+      <h2>About / 簡介</h2>
+      <p>我目前就讀中原大學工業工程二甲，今年暑假轉至中原大學。原本就讀文化大學化學系。平常興趣是打球與追韓團，透過運動與聽音樂來紓解壓力。我希望在「基礎概論」這門課能學到更多資訊相關的入門知識，以幫助自己探索未來的職涯方向。</p>
     </section>
 
     <section id="skills" class="card two-col">
-      <h2>�ޯ� / ����</h2>
+      <h2>技能 / 興趣</h2>
       <ul>
-        <li>�B�ʡ]�x�y�B�вy���^</li>
-        <li>���� / ���ΰl�P</li>
-        <li>�ۧھǲ߸�T��������</li>
-        <li>�ζ��X�@�P�ǲߺ믫</li>
+        <li>運動（籃球、羽球等）</li>
+        <li>音樂 / 韓團追星</li>
+        <li>自我學習資訊相關知識</li>
+        <li>團隊合作與學習精神</li>
       </ul>
     </section>
 
     <section id="education" class="card">
-      <h2>�Ǿ�</h2>
-      <p>����j�� ? �u�~�u�{�G�ҡ]2025�~ �_�^</p>
-      <p>��Ƥj�� ? �ƾǨt�]���NŪ�^</p>
+      <h2>學歷</h2>
+      <p>中原大學 ? 工業工程二甲（2025年 起）</p>
+      <p>文化大學 ? 化學系（曾就讀）</p>
     </section>
 
     <section id="future-goal" class="card">
-      <h2>���Ӯi��</h2>
-      <p>�ڧƱ�z�L�ҵ{�P�۾ǡA�v�B�إ߸�T��쪺��¦��O�]�p�{���B��ơB�t��k���^�A���ӯ�b��ޡB��ƩΤu�{���λ���쫴�X�ۤv����V�C</p>
+      <h2>未來展望</h2>
+      <p>我希望透過課程與自學，逐步建立資訊領域的基礎能力（如程式、資料、演算法等），未來能在科技、資料或工程應用領域找到契合自己的方向。</p>
     </section>
   </main>
 
   <footer class="footer">
     <div class="container">
-      <p>? <span id="year"></span> �^���T �X <a href="https://github.com/Baron9584" target="_blank" rel="noopener">GitHub</a></p>
+      <p>? <span id="year"></span> 彭邦紘 — <a href="https://github.com/Baron9584" target="_blank" rel="noopener">GitHub</a></p>
     </div>
   </footer>
 
@@ -61,3 +61,4 @@
   </script>
 </body>
 </html>
+
