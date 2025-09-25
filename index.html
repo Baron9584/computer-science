@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>彭邦紘 — 個人履歷</title>
+  <meta name="description" content="彭邦紘的線上履歷" />
+  <style>
+    :root {
+      --bg: #f6f7fb;
+      --card: #ffffff;
+      --accent: #0b66ff;
+      --text: #1b1b1b;
+      --muted: #666;
+      --radius: 12px;
+      --container: 1100px;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Noto Sans TC", "Segoe UI", Roboto, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    .container {
+      width: 90%;
+      max-width: var(--container);
+      margin: 0 auto;
+    }
+    .hero {
+      background: linear-gradient(135deg, #ffffff 0%, #f0f6ff 100%);
+      padding: 36px 0;
+      border-bottom: 1px solid rgba(0,0,0,0.04);
+    }
+    .hero .container {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+    }
+    .avatar {
+      width: 120px;
+      height: 120px;
+      border-radius: 16px;
+      object-fit: cover;
+      border: 4px solid white;
+      box-shadow: 0 6px 20px rgba(11,102,255,0.08);
+    }
+    .hero-text h1 { margin: 0; font-size: 1.9rem; }
+    .title { margin: 6px 0; color: var(--muted); }
+    .contact a { color: var(--accent); text-decoration: none; }
+    .card {
+      background: var(--card);
+      padding: 20px;
+      margin: 20px 0;
+      border-radius: var(--radius);
+      box-shadow: 0 6px 18px rgba(8,20,50,0.03);
+    }
+    .two-col ul { columns: 2; padding-left: 1rem; }
+    .footer {
+      padding: 20px 0;
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+    @media (max-width: 720px) {
+      .hero .container { flex-direction: column; text-align: center; }
+      .two-col ul { columns: 1; }
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <!--IMG_4422-->
+      <img class="avatar" src="profile.jpg" alt="彭邦紘的照片">
+      <div class="hero-text">
+        <h1>彭邦紘</h1>
+        <p class="title">中原大學 工業工程系學生</p>
+        <p class="contact">
+          <a href="https://github.com/Baron9584" target="_blank" rel="noopener">github.com/Baron9584</a> · 
+          桃園市中壢區
+        </p>
+      </div>
+    </div>
+  </header>
+
+
+  <main class="container">
+    <section class="card">
+      <h2>關於我</h2>
+      <p>我目前就讀中原大學工業工程二甲，今年暑假轉至中原大學。原本就讀文化大學化學系。平常興趣是打球與追韓團，透過運動與聽音樂來紓解壓力。我希望在「基礎概論」這門課能學到更多資訊相關的入門知識，以幫助自己探索未來的職涯方向。</p>
+    </section>
+
+
+    <section class="card two-col">
+      <h2>技能 / 興趣</h2>
+      <ul>
+        <li>運動（籃球、羽球等）</li>
+        <li>音樂 / 韓團追星</li>
+        <li>自我學習資訊相關知識</li>
+        <li>團隊合作與學習精神</li>
+      </ul>
+    </section>
+
+
+    <section class="card">
+      <h2>學歷</h2>
+      <p>中原大學 • 工業工程二甲（2025年 起）</p>
+      <p>文化大學 • 化學系（曾就讀）</p>
+    </section>
+
+
+    <section class="card">
+      <h2>未來展望</h2>
+      <p>我希望透過課程，逐步建立資訊領域的基礎能力（如程式、資料、演算法等），未來能在科技、資料或工程應用領域找到契合自己的方向。</p>
+    </section>
+  </main>
+
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> 彭邦紘 — <a href="https://github.com/Baron9584" target="_blank" rel="noopener">GitHub</a></p>
+    </div>
+  </footer>
+
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
